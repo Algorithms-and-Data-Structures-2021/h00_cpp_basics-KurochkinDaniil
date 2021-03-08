@@ -130,7 +130,6 @@ vector<int> find_common_elements(vector<int> &arr_a, vector<int> &arr_b) {
                 if (arr_a[i] == arr_b[j])
                 {
                     common_elem.push_back(arr_a[i]);
-                    arr_b[j] = false; //чтобы такой элемент больше не участвовал в сравнениях
                 }
 
             }
